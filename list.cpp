@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-template<class T> class List { // ������
+// что то изменил(добавил комент)
+template<class T> class List { // ñïèñîê
 public:
 	List();
 	~List();
@@ -128,6 +128,6 @@ int main() {
 	lst.push_back(62);
 	lst.push_back(36);
 	lst.push_back(90);
-	cout � lst[0] � endl;
+	cout « lst[0] « endl;
 	return 0;
 }
